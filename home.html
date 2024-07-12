@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #banner {
+        display: flex;
+        padding: 40px 50px;
+        justify-content: space-between;
+        background-image: url(https://t3.ftcdn.net/jpg/05/37/23/40/360_F_537234088_s6e6S3CM4rCEbSJku16Phy1YsBdLSx62.jpg);
+        background-size: cover;
+        }
+        #top {
+        margin: 60px auto 60px auto;
+        color: aliceblue;
+        }
+        #bannerArea h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 3rem;
+        font-weight: bold;
+        color: white;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        #bannerArea h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+        color: white;
+        }
+        #subscribe {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        margin: 60px auto;
+        }
+        #emailBar {
+        border: none;
+        padding: 10px 20px;
+        min-width: 50vw;
+        border-radius: 25px;
+        }
+        #subscribebtn {
+        border: none;
+        padding: 10px 20px;
+        border-radius: 25px;
+        background-color: #2F3645;
+        color: white;
+        font-family: 'robot', sans-serif;
+        font-weight: bold;
+        }
+        #sub:hover {
+        background-color: #000000;
+        color: #ff863b;
+        cursor: pointer;
+        }
+        #features ul li{
+        list-style: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        color: white
+        }
+        #content {
+        display: flex;
+        padding: 30px 70px;
+        justify-content: space-between;
+        font-family: 'Poppins', sans-serif;
+        }
+        #content #subscribers, #rating {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        text-align: center;
+        }
+        #socialMedia {
+        margin: 20px auto;
+        font-family: poppins, sans-serif;
+        text-align: center;
+        }
+        #iconContainer {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        }
+        #socialMedia .socialIcon {
+        height: 50px
+        }
+        #socialMedia .socialIcon:hover {
+        cursor: pointer;
+        transform: rotate(15deg);
+        }
+        #header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #000080;
+        }
+        #header a {
+            text-decoration: none;
+            color: white;
+            margin: 0px 5px;
+        }
+        #logo img {
+            width: 100px;
+        }
+    </style>
+</head>
+<div id="header">
+    <div id="logo">
+        <img src="logo.png" alt="">
+    </div>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="news.html">News</a>
+    </nav>
+</div>
+<body>
+    <div id="banner">
+        <div id="left">
+            <div id="top">
+                <h1>NEWSLETTER</h1>
+                <h2>Stay updated!</h2>
+            </div>
+            <div id="subscribebtn">
+                <input type="text" id="emailBar" placeholder="✉ Enter your E-Mail">
+                <button id="sub">SUBSCRIBE</button>
+            </div>
+            <div id="features">
+                <ul>
+                    <li>New Releases every Week</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div id="subscribers">
+            <h3>1.2M</h3>
+            <p>Total Subscribers</p>
+        </div>
+        <div id="rating">
+            <h3>4.5</h3>
+            <p>Rating</p>
+        </div>
+    </div>
+    <div id="socialMedia">
+        <h3>Follow Us on Social Media</h3>
+        <div id="iconContainer">
+            <img src="https://static.vecteezy.com/system/resources/previews/018/930/698/non_2x/facebook-logo-facebook-icon-transparent-free-png.png" alt="Facebook" class="socialIcon">
+            <img src="https://static.vecteezy.com/system/resources/previews/018/930/415/non_2x/instagram-logo-instagram-icon-transparent-free-png.png" alt="Instagram" class="socialIcon">
+            <img src="https://static.vecteezy.com/system/resources/previews/034/800/663/non_2x/x-new-twitter-logo-free-png.png" alt="Twitter" class="socialIcon">
+            <img src="https://w7.pngwing.com/pngs/511/605/png-transparent-in-logo-linkedin-diduco-ab-icon-linkedin-blue-angle-text-thumbnail.png" alt="Linkedin" class="socialIcon">
+        </div>
+    </div>
+</body>
+</html>
